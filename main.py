@@ -344,7 +344,7 @@ tasks2 = [
     judge().coin_run(),
     judge().share_run(),
     judge().watch_run(),
-    judge().judge_run()
+    #judge().judge_run()
 
 ]
 loop.run_until_complete(asyncio.wait(tasks2))
